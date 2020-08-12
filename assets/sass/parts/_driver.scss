@@ -1,0 +1,35 @@
+.driver {
+    height: 100vh;
+    background-color: $driverBackgroundColor;
+
+    .box {
+
+        img {
+            display: block;
+            width: 480px;
+            height: 720px;
+            margin: 0 auto;
+        }
+
+        .first-line {
+            font-family: $driverTitleFontFamily;
+            text-align: center;
+            color: $driverTitleFontColor;
+
+            p {
+                margin-top: 0;
+                font-size: $driverTitleFirstLineFontSize;
+            }
+        }
+
+        .second-line {
+            font-family: $driverTitleFontFamily;
+            text-align: center;
+            color: $driverTitleFontColor;
+
+            h1 {
+                font-size: $h1FontSize;
+            }
+        }
+    }
+}

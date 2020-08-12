@@ -1,7 +1,5 @@
 body {
-    font-family: 'Lemonada', cursive;
-    // font-family: 'Oswald',
-    sans-serif;
+    font-family: $mainFontFamily
 }
 
 .container {
@@ -9,4 +7,11 @@ body {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.section-name {
+    font-size: 22px;
+    color: #ffffff;
+    padding: 10px 5px;
+    text-transform: uppercase;
 }
