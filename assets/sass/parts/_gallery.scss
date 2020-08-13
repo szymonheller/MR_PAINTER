@@ -1,0 +1,43 @@
+.gallery {
+    height: 100vh;
+    background-color: $galleryBackgroundColor;
+    padding-top: 100px;
+
+    .container {
+
+        .box {
+
+            .box-inside {
+                margin: 0 -45px;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+
+                .photo {
+                    width: calc(100%/3);
+                    margin: 0 0 30px 0;
+                    padding: 0 15px;
+
+                    a {
+
+                        img {
+                            width: 380px;
+                            height: 280px;
+                        }
+                    }
+                }
+
+
+            }
+
+            p {
+                color: $galleryFontColor;
+                font-weight: 300;
+                letter-spacing: .8px;
+            }
+        }
+
+
+
+    }
+}
