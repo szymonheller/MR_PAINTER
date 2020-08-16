@@ -30,11 +30,15 @@
 
             }
 
-            p {
-                color: $galleryFontColor;
-                font-weight: 300;
-                letter-spacing: .8px;
+            .text {
+
+                p {
+                    color: $galleryFontColor;
+                    font-weight: 300;
+                    letter-spacing: .8px;
+                }
             }
+
         }
 
 
