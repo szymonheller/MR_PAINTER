@@ -326,3 +326,9 @@ body {
 .menu nav ul li a:hover {
   color: #d61919;
 }
+
+.contact {
+  height: 100vh;
+  background-color: #000000;
+  padding-top: 100px;
+}
