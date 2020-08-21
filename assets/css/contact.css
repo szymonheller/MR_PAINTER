@@ -351,7 +351,7 @@ body {
   height: 350px;
   text-align: center;
   background-color: #ffffff;
-  border: solid 3px #d61919;
+  border: solid 2px #d61919;
   margin: 15px;
 }
 
@@ -384,4 +384,30 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
+}
+
+.contact .container .media {
+  padding: 5px;
+  margin: 80px 0 5px 0;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+}
+
+.contact .container .media a {
+  font-size: 50px;
+}
+
+.contact .container .media a .fa-facebook {
+  color: #4267B2;
+  padding-right: 10px;
+}
+
+.contact .container .media a .fa-twitter-square {
+  color: #1da1f2;
+  padding-right: 10px;
+}
+
+.contact .container .media a .fa-linkedin {
+  color: #2867b2;
 }
