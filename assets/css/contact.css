@@ -328,7 +328,7 @@ body {
 }
 
 .contact {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #000000;
   padding-top: 100px;
 }
@@ -347,6 +347,7 @@ body {
 }
 
 .contact .boxes .box {
+  font-family: "Oswald", sans-serif;
   width: 400px;
   height: 350px;
   text-align: center;
@@ -356,7 +357,7 @@ body {
 }
 
 .contact .boxes .box a {
-  font-size: 72px;
+  font-size: 82px;
   color: #000000;
   -webkit-transition: .2s;
   transition: .2s;
@@ -371,27 +372,35 @@ body {
 }
 
 .contact .boxes .box h2 {
-  padding: 30px 0;
+  padding: 30px 10px;
   font-size: 18px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #000000;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
 }
 
 .contact .boxes .box p {
+  padding: 0 10px;
   text-decoration: none;
   color: #000000;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 16px;
+  letter-spacing: .8px;
+  font-size: 18px;
 }
 
 .contact .container .media {
   padding: 5px;
-  margin: 80px 0 5px 0;
+  margin: 60px 0 0 0;
   background-color: white;
-  width: 200px;
+  width: 205px;
   text-align: center;
+}
+
+@media (min-width: 1300px) {
+  .contact .container .media {
+    margin: 280px 0 0 0;
+  }
 }
 
 .contact .container .media a {
@@ -400,12 +409,12 @@ body {
 
 .contact .container .media a .fa-facebook {
   color: #4267B2;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .contact .container .media a .fa-twitter-square {
   color: #1da1f2;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .contact .container .media a .fa-linkedin {
